@@ -29,6 +29,12 @@ canvas {
 	left:30px;
 }
 
+.banner {
+	height: 250px;
+	background-color: grey;
+	width: 100%;
+}
+
 h1 {
 	color: white;
 }
