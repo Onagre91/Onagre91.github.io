@@ -16,7 +16,6 @@ body {
 
 canvas {
   background-color: black;
-  position: absolute;
   top:0;
   left: 0;
   z-index: 0;
@@ -24,7 +23,7 @@ canvas {
 
 .overlay {
   z-index: 2;
-  position:absolute; 
+  position:relative; 
 }
 
 article,
