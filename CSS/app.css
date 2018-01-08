@@ -19,16 +19,11 @@ canvas {
 	top:0;
 	left: 0;
 	z-index: 0;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .overlay {
 	z-index: 2;
 	position:absolute; 
-	height: 1000px;
 	top:20px; 
 	left:30px;
 }
