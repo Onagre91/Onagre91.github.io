@@ -19,6 +19,10 @@ canvas {
 	top:0;
 	left: 0;
 	z-index: -2;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .overlay {
@@ -28,9 +32,9 @@ canvas {
 	left:30px;
 	height: 1000px;
 }
- h1 {
- 	color: white;
- }
+h1 {
+	color: white;
+}
 
 article,
 aside,
