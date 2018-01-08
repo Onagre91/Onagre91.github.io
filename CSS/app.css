@@ -24,7 +24,11 @@ canvas {
 
 .overlay {
   z-index: 2;
-  position:absolute; 
+  position:absolute;
+  margin: 0 1em;
+  height: auto;
+  padding: 1em 1.5em;
+  overflow: hidden;
 }
 
 article,
