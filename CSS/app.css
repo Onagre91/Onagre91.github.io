@@ -24,7 +24,8 @@ canvas {
 .overlay {
 	z-index: 1;
 	position:absolute; 
-	top:200px; 
+	/*top:20px; */
+	bottom: 400px;
 	left:30px;
 }
 
