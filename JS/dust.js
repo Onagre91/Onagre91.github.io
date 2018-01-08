@@ -5,7 +5,7 @@ $(function () {
         particles = []; //this is an array which will hold our particles Object/Class
 
         W = window.innerWidth;
-        H = 500 + "px";
+        H = window.innerHeight;
 
     canvas = $("#canvas")[0]; //this "get(0) will pull the underlying non-jquery wrapped dom element from our selection
     canvas.width = W;
