@@ -19,9 +19,6 @@ canvas {
 	top:0;
 	left: 0;
 	z-index: 0;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .overlay {
