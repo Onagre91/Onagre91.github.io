@@ -18,7 +18,7 @@ canvas {
 	position: absolute;
 	top:0;
 	left: 0;
-	z-index: 0;
+	z-index: -100;
 }
 
 .overlay {
@@ -26,8 +26,12 @@ canvas {
 	position:absolute; 
 	top:20px; 
 	left:30px;
+	height: 1000px;
 }
-
+ h1 {
+ 	color: white;
+ }
+ 
 article,
 aside,
 details,
