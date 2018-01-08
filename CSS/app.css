@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
 
 
-html,body{height:100%; width:100%; overflow:none; background-color:black}
+html,body{height:100%; width:100%;background-color:black}
 
 html {
 	font-family: sans-serif;
@@ -18,7 +18,7 @@ canvas {
 	position: absolute;
 	top:0;
 	left: 0;
-	z-index: -100;
+	z-index: -2;
 }
 
 .overlay {
@@ -31,7 +31,7 @@ canvas {
  h1 {
  	color: white;
  }
- 
+
 article,
 aside,
 details,
