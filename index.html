@@ -8,19 +8,33 @@
 	<link rel="stylesheet" href="CSS/materialize/css/materialize.css">
 	<link rel="stylesheet" href="CSS/materialize/css/materialize.min.css">
 	<link rel="stylesheet" href="CSS/app.css">
+	<link rel="stylesheet" href="CSS/transition.css">
 </head>
 <body>
 	<div class="overlay col l12">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col l12 push-l11">
-					<img src="Img/modif.png">
-				</div>
+				<article class="kontext">
+					<div class="layer one show">
+						<div class="col l12 push-l11">
+							<img src="Img/modif.png">
+						</div>
+					</div>
+					<div class="layer two">
+						<h2>Layer Two</h2>
+					</div>
+					<div class="layer three">
+						<h2>Layer Three</h2>
+					</div>
+				</article>
+
+				<ul class="bullets"></ul>
 			</div>
 		</div>
 	</div>   
 	<canvas id="canvas"></canvas>
 	<script src="JS/jquery.js"></script>
 	<script src="JS/dust.js"></script>
+	<script src="JS/transition.js"></script>
 </body>
 </html>
