@@ -189,7 +189,7 @@ $(function () {
 
 $(function(){
     $(".typed").typed({
-        strings: ["Developpeur Web"],
+        strings: ["Developpeur Web Full Stack"],
                 stringsElement: null,
                 typeSpeed: 10,
                 startDelay: 200,
