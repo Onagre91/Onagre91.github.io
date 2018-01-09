@@ -189,7 +189,7 @@ $(function () {
 
 $(function(){
     $(".typed").typed({
-        strings: ["Bienvenue sur mon portfolio !"],
+        strings: ["Developpeur Web"],
                 stringsElement: null,
                 typeSpeed: 10,
                 startDelay: 200,
