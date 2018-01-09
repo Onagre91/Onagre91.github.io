@@ -185,3 +185,28 @@ $(function () {
     };  
     
 });
+
+
+$(function(){
+    $(".typed").typed({
+        strings: ["Bienvenue sur mon portfolio !"],
+                stringsElement: null,
+                typeSpeed: 10,
+                startDelay: 200,
+                backDelay: 500,
+                loop: false,
+                loopCount: 5,
+                showCursor: false,
+                cursorChar: "|",
+                attr: null,
+                contentType: 'html',
+            });
+});
+
+jQuery(document).ready(function(){
+    jQuery('.skillbar').each(function(){
+        jQuery(this).find('.skillbar-bar').animate({
+            width:jQuery(this).attr('data-percent')
+        },3000);
+    });
+});

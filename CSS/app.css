@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Joti+One);
 
 
-html,body{height:100%; width:100%;background-color:black}
+html,body{height:100%; width:100%;}
 
 html {
 	font-family: sans-serif;
@@ -21,12 +22,148 @@ canvas {
 	z-index: 0;
 }
 
-.overlay {
+/*.overlay {
 	z-index: 1;
 	position:absolute; 
-	/*top:20px; */
-	bottom: 300px;
-	left:30px;
+}
+*/
+
+.configimg2 {
+	width: 80%;
+	height: 80%;
+}
+
+.configimg3 {
+	width: 60%;
+	height: 60%;
+	padding-left: 25%;
+}
+
+.caption {
+	padding-left: 30%;
+	top: 50%;
+	width: 100%;
+}
+
+
+
+.banner {
+	width: 100%;
+	position: relative;
+	bottom: 250px;
+	left: 50px;
+}
+
+.typed {
+	font-family: 'Joti One', cursive;
+	color: black;
+}
+
+.style {
+	font-family: 'Joti One', cursive;
+}
+
+.ring {
+	color: #777;
+	background-color: white;
+	text-align: center;
+	padding: 50px 80px;
+	text-align: justify;
+}
+
+.bgimg1 {
+	background-image: url("../Img/desk.jpg");
+	min-height: 100%;
+	opacity: 0.8;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.bgimg2 {
+	background-image: url("../Img/banner.png");
+	min-height: 500px;
+	opacity: 0.8;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
 }
 
 article,
